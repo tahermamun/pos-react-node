@@ -1,9 +1,3 @@
-/*
- * Title: PosTech server side
- * Description:
- * Author: Taher Mamun
- * Date: 25/11-2021
- */
 
 // external imports
 const express = require("express");
