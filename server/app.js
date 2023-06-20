@@ -40,7 +40,7 @@ app.use(cors());
 
 // set static folder
 // Serve static files from the React build folder
-app.use(express.static("../client/build"));
+app.use(express.static("./build"));
 
 app.get("/", (req, res) => {
   res.send("PosTech software server");
